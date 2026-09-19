@@ -1,6 +1,6 @@
 ---
 name: paper-deep-reading
-description: Deep-read academic papers and generate structured Chinese research notes with critical analysis. Use when the user provides an academic paper title, DOI, arXiv/publisher/GitHub/PDF link, local PDF, asks to deep-read/read/organize/summarize an academic paper, or asks to maintain a paper-reading repository.
+description: Deep-read academic papers and generate structured Chinese research notes with critical analysis. Use when the user provides an academic paper title, DOI, arXiv/publisher/GitHub/PDF link, local PDF, asks to deep-read/read/organize/summarize an academic paper, or to maintain a paper-reading repository.
 ---
 
 # Paper Deep Reading
@@ -66,15 +66,14 @@ After `TL;DR`, add a short `毒舌评论`: use one sharp paragraph or 2-3 bullet
 `Evaluation` should focus on the experimental design, metrics, and results. Include dataset scale, baselines, or key figures only when they are necessary for understanding the result.
 End by connecting the paper to prerequisite/follow-up papers and questions worth revisiting.
 
-### 7. Sync the Finished Note to GitHub When Requested
-
-Perform this step only when the user explicitly asks to sync, upload, commit, or push the paper and note to GitHub.
-
+### 7. Generate the Note
 Use `/Users/felix/WorkSpace/WHU/research/paper/paper-repo` as the paper-reading repository unless the user specifies another repo.
 Before editing the repository, inspect the current state with `git status --short` and do not overwrite unrelated user changes.
 Create one new folder named with the paper's Chinese title. If a folder with that name already exists, inspect it first and choose a non-destructive path instead of overwriting files.
 Copy the paper PDF into that folder and rename it with the paper's Chinese title.
 Save the Chinese note as a `.md` file in the same folder.
+
+### 8. Sync the Finished Note to GitHub When Requested
 Run `git status --short` again and review the exact files to be committed.
 Commit only the new paper folder unless the user explicitly asks for broader changes.
 Use a concise commit message that names the paper.
