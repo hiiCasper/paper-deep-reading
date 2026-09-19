@@ -1,12 +1,10 @@
 # Paper Deep Reading
 
-**Language:** [English](#english) | [中文](#中文)
+**Language:** English | [中文](#中文)
 
 ---
 
 ## English
-
-[中文](#中文)
 
 Paper Deep Reading is a Codex skill for deep-reading academic papers and producing structured Chinese research notes with critical analysis. It is designed for workflows where a paper should become a reusable research artifact rather than a loose summary.
 
@@ -94,8 +92,6 @@ paper-deep-reading/
 ---
 
 ## 中文
-
-[English](#english)
 
 Paper Deep Reading 是一个用于精读学术论文的 Codex skill。它的目标不是生成松散摘要，而是把一篇论文转化为可长期保存、可复用、带有批判性分析的中文研究笔记。
 
